@@ -2,37 +2,69 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://royjung.github.io</loc>
+        <loc>http://roy-jung.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://royjung.github.io/201026_fe-let2-iteration/</loc>
-        <lastmod>2020-10-26T11:52:38.600Z</lastmod>
+        <loc>http://roy-jung.github.io/201026-fe-006-leave-var/</loc>
+        <lastmod>2020-10-26T13:02:51.217Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://royjung.github.io/201026_fe_let1-set-url-params/</loc>
-        <lastmod>2020-10-26T11:40:16.210Z</lastmod>
+        <loc>http://roy-jung.github.io/201026_fe_000_intro/</loc>
+        <lastmod>2020-10-26T12:59:44.444Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://royjung.github.io/201026_fe-intro/</loc>
-        <lastmod>2020-10-26T11:29:44.414Z</lastmod>
+        <loc>http://roy-jung.github.io/201026-fe_005_let-and-const/</loc>
+        <lastmod>2020-10-26T12:57:21.657Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://royjung.github.io/170110_let-vs-var-performance-compare/</loc>
+        <loc>http://roy-jung.github.io/201026-fe_004_scope/</loc>
+        <lastmod>2020-10-26T12:36:52.700Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026_fe_003_const/</loc>
+        <lastmod>2020-10-26T12:35:25.651Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026_fe_002_let-iteration/</loc>
+        <lastmod>2020-10-26T12:31:11.814Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026_fe_001_let-set-url-params/</loc>
+        <lastmod>2020-10-26T12:30:59.286Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/170110_let-vs-var-performance-compare/</loc>
         <lastmod>2020-10-26T11:23:03.148Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -40,7 +72,7 @@
     </url>
 
     <url>
-        <loc>http://royjung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
+        <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
         <lastmod>2020-10-26T11:22:58.595Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -48,7 +80,7 @@
     </url>
 
     <url>
-        <loc>http://royjung.github.io/161020_how-to-remove-node-from-macos/</loc>
+        <loc>http://roy-jung.github.io/161020_how-to-remove-node-from-macos/</loc>
         <lastmod>2020-10-26T11:22:53.537Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -56,7 +88,7 @@
     </url>
 
     <url>
-        <loc>http://royjung.github.io/161127_how-to-make-private-member/</loc>
+        <loc>http://roy-jung.github.io/161127_how-to-make-private-member/</loc>
         <lastmod>2020-10-26T11:22:47.175Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -64,7 +96,7 @@
     </url>
 
     <url>
-        <loc>http://royjung.github.io/161128_es6-for-react/</loc>
+        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
         <lastmod>2020-10-26T11:22:25.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -72,7 +104,7 @@
     </url>
 
     <url>
-        <loc>http://royjung.github.io/161228_ecmascript-proposals-1-intro/</loc>
+        <loc>http://roy-jung.github.io/161228_ecmascript-proposals-1-intro/</loc>
         <lastmod>2020-10-26T11:22:11.382Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
