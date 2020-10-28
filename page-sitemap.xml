@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>http://roy-jung.github.io/archives/</loc>
+        <lastmod>2020-10-28T09:17:22.128Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>http://roy-jung.github.io/works/</loc>
         <lastmod>2016-12-11T12:13:04.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>http://roy-jung.github.io/tags/</loc>
         <lastmod>2016-11-27T14:44:02.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://roy-jung.github.io/archives/</loc>
-        <lastmod>2016-11-27T14:43:31.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
