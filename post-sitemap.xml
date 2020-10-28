@@ -9,7 +9,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe-006-leave-var/</loc>
-        <lastmod>2020-10-26T23:46:07.230Z</lastmod>
+        <lastmod>2020-10-28T07:22:43.697Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +17,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe_005_let-and-const/</loc>
-        <lastmod>2020-10-26T23:31:03.158Z</lastmod>
+        <lastmod>2020-10-28T07:22:39.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +25,31 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe_004_scope/</loc>
-        <lastmod>2020-10-26T23:27:35.474Z</lastmod>
+        <lastmod>2020-10-28T07:22:34.565Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026_fe_003_const/</loc>
+        <lastmod>2020-10-28T07:22:28.973Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026_fe_002_let-iteration/</loc>
+        <lastmod>2020-10-28T07:22:19.636Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026_fe_001_let-set-url-params/</loc>
+        <lastmod>2020-10-28T07:22:11.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -34,30 +58,6 @@
     <url>
         <loc>http://roy-jung.github.io/201026_fe_000_intro/</loc>
         <lastmod>2020-10-26T12:59:44.444Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/201026_fe_003_const/</loc>
-        <lastmod>2020-10-26T12:35:25.651Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/201026_fe_002_let-iteration/</loc>
-        <lastmod>2020-10-26T12:31:11.814Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/201026_fe_001_let-set-url-params/</loc>
-        <lastmod>2020-10-26T12:30:59.286Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
