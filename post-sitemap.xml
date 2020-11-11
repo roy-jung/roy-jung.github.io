@@ -8,8 +8,24 @@
     </url>
 
     <url>
+        <loc>http://roy-jung.github.io/201111-concise-redux-saga/</loc>
+        <lastmod>2020-11-11T16:32:20.795Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
+        <lastmod>2020-11-11T01:28:30.774Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://roy-jung.github.io/201026-fe-006-leave-var/</loc>
-        <lastmod>2020-10-28T07:22:43.697Z</lastmod>
+        <lastmod>2020-11-11T01:25:03.799Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +33,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe_005_let-and-const/</loc>
-        <lastmod>2020-10-28T07:22:39.000Z</lastmod>
+        <lastmod>2020-11-11T01:25:01.092Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +41,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe_004_scope/</loc>
-        <lastmod>2020-10-28T07:22:34.565Z</lastmod>
+        <lastmod>2020-11-11T01:24:58.817Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -66,14 +82,6 @@
     <url>
         <loc>http://roy-jung.github.io/170110_let-vs-var-performance-compare/</loc>
         <lastmod>2020-10-26T11:23:03.148Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
-        <lastmod>2020-10-26T11:22:58.595Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
