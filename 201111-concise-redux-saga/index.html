@@ -8,7 +8,7 @@
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="http://roy-jung.github.io/images/post-cover4.jpg">
 <meta property="article:published_time" content="2020-11-11T01:26:03.000Z">
-<meta property="article:modified_time" content="2020-11-11T16:38:36.599Z">
+<meta property="article:modified_time" content="2020-11-11T16:41:09.825Z">
 <meta property="article:author" content="Jaenam Jung">
 <meta property="article:tag" content="React.js">
 <meta property="article:tag" content="redux-saga">
@@ -73,21 +73,55 @@
 <thead>
 <tr>
 <th align="left">type</th>
-<th align="center">target</th>
-<th align="center">result</th>
+<th align="left">target</th>
+<th align="left">result</th>
 <th align="left">actionTarget</th>
 <th align="left">actionStatus</th>
 </tr>
 </thead>
-</table>
-<ol>
-<li>REQUEST  | login           |         | ‘login’          | LOADING</li>
-<li>RESPONSE | login           | SUCCESS | ‘login’          | DONE</li>
-<li>REQUEST  | change nickname |         | ‘nicknameChange’ | LOADING</li>
-<li>REQUEST  | logout          |         | ‘logout’         | LOADING</li>
-<li>RESPONSE | change nicknmae | FAILURE | ‘nicknameChange’ | ERROR</li>
-<li>RESPONSE | logout          | SUCCESS | ‘logout’         | DONE</li>
-</ol>
+<tbody><tr>
+<td align="left">1) REQUEST</td>
+<td align="left">login</td>
+<td align="left"></td>
+<td align="left">‘login’</td>
+<td align="left">LOADING</td>
+</tr>
+<tr>
+<td align="left">2) RESPONSE</td>
+<td align="left">login</td>
+<td align="left">SUCCESS</td>
+<td align="left">‘login’</td>
+<td align="left">DONE</td>
+</tr>
+<tr>
+<td align="left">3) REQUEST</td>
+<td align="left">change nickname</td>
+<td align="left"></td>
+<td align="left">‘nicknameChange’</td>
+<td align="left">LOADING</td>
+</tr>
+<tr>
+<td align="left">4) REQUEST</td>
+<td align="left">logout</td>
+<td align="left"></td>
+<td align="left">‘logout’</td>
+<td align="left">LOADING</td>
+</tr>
+<tr>
+<td align="left">5) RESPONSE</td>
+<td align="left">change nicknmae</td>
+<td align="left">FAILURE</td>
+<td align="left">‘nicknameChange’</td>
+<td align="left">ERROR</td>
+</tr>
+<tr>
+<td align="left">6) RESPONSE</td>
+<td align="left">logout</td>
+<td align="left">SUCCESS</td>
+<td align="left">‘logout’</td>
+<td align="left">DONE</td>
+</tr>
+</tbody></table>
 <p>3번과 4번 요청에 대하여 서버에서 어떤 이유에서인지 4번을 먼저 처리한 경우, 그럼에도 응답은 순서대로 도착한 경우의 시나리오입니다. 근소한 차이로 도달한 5번 6번에 의해 화면상에는 ‘닉네임 변경 실패’를 노출할 타이밍을 놓쳐버리거나, 혹은 5번에 대한 처리는 정상적으로 이루어졌음에도 불구하고 6번에 대한 정책인 화면 전환(Router.replace)으로 인해 노티를 육안으로 확인하지 못하는 경우가 발생합니다. 이런 경우 Redux devtool의 히스토리를 뒤져보면 현상은 파악할 수 있긴 하지만, devtool을 비활성화 시킨 배포환경에서는 유추하기가 쉽지 않습니다.</p>
 <p>다른 문제도 있습니다. actionTarget, asyncStatus라는 두 상태의 변화를 구독해야 하는 컴포넌트가 계속해서 늘어난다는 점입니다. 각 컴포넌트에서 useEffect를 이용하여 두 상태를 감시하고 asyncTarget이 목적하는 문자열과 일치하는 경우에 대해 부가적인 작업을 수행할텐데, 이 두 값은 사용자의 사소한 동작들 하나하나에 수시로 변경될 것입니다. 성능상에 부정적인 영향을 줄 가능성을 배제할 수 없겠습니다.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> Component1 = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  useEffect(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (actionTarget === <span class="string">&#x27;login&#x27;</span>) ...</span><br><span class="line">  &#125;, [actionTarget, actionStatus])</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> Component2 = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  useEffect(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (actionTarget === <span class="string">&#x27;nicknameChange&#x27;</span>) ...</span><br><span class="line">  &#125;, [actionTarget, actionStatus])</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> Component3 = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  useEffect(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (actionTarget === <span class="string">&#x27;logout&#x27;</span>) ...</span><br><span class="line">  &#125;, [actionTarget, actionStatus])</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
@@ -193,6 +227,6 @@
   s.src = '//royjung.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
-})();</script><noscript>Enable JavaScript to see comments.</noscript><!-- Meta Tags for Structured Data--><meta itemprop="dateModified" content="2020-11-11T16:38:36.599Z"><meta itemprop="articleBody" content="React.js에 redux 및 redux-saga를 얹어 사용하면서 느낀 피로감을 최소화하고자 노력한 결과가 제 나름으론 만족스럽게 나와 공유하고자 합니다.
+})();</script><noscript>Enable JavaScript to see comments.</noscript><!-- Meta Tags for Structured Data--><meta itemprop="dateModified" content="2020-11-11T16:41:09.825Z"><meta itemprop="articleBody" content="React.js에 redux 및 redux-saga를 얹어 사용하면서 느낀 피로감을 최소화하고자 노력한 결과가 제 나름으론 만족스럽게 나와 공유하고자 합니다.
 패키지 구조redux-saga를 보다 쉽게 사용하고자 하는 데에 포커스를 맞춘 연습용 프로젝트로, 디펜던시는 다음과 같습니다.
 123456789&amp;#123;  &amp;quot;react&amp;quot;:..."><meta itemprop="url" content="http://roy-jung.github.io/201111-concise-redux-saga/"><meta itemprop="mainEntityOfPage" content="http://roy-jung.github.io/201111-concise-redux-saga/"><div itemscope itemtype="https://schema.org/Organization" itemprop="publisher"><meta itemprop="name" content="RoyJung _ dev blog"><div itemscope itemprop="logo" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="http://roy-jung.github.io/images/logo.png"></div></div><div itemscope itemtype="https://schema.org/ImageObject" itemprop="image"><meta itemprop="contentUrl" content="http://roy-jung.github.io/images/post-cover4.jpg"><meta itemprop="url" content="http://roy-jung.github.io/images/post-cover4.jpg"><meta itemprop="width"><meta itemprop="height"></div></article><section class="related-posts"><h3>Related posts</h3><div class="related-posts__item__wrapper"><a class="related-posts__item" href="/201026_fe_000_intro/"><div class="related-posts__item__background" style="background-image:url('/images/post-cover1.jpg');"></div><div class="related-posts__item__overlay"></div><span class="related-posts__item__title">0. &quot;실용적인 프론트엔드 개발 지식&quot;을 시작하며</span></a></div><div class="related-posts__item__wrapper"><a class="related-posts__item" href="/201026-fe_004_scope/"><div class="related-posts__item__background" style="background-image:url('/images/post-cover1.jpg');"></div><div class="related-posts__item__overlay"></div><span class="related-posts__item__title">4. scope</span></a></div><div class="related-posts__item__wrapper"><a class="related-posts__item" href="/201026-fe_005_let-and-const/"><div class="related-posts__item__background" style="background-image:url('/images/post-cover1.jpg');"></div><div class="related-posts__item__overlay"></div><span class="related-posts__item__title">5. let vs. const</span></a></div></section></div></div></div><footer id="footer"><div class="widgets"><div class="widgets-inner"><!-- Jade doesn't support dynamic inclusion with `each`.--><!-- So, I just hard coded the file names that will be included.--><div class="widgets__item"><h3 class="widgets__item__heading">Recent posts</h3><ul class="recent-posts"><li class="recent-posts__item"><a href="/201111-concise-redux-saga/">redux-saga를 간결하게 사용해보자!</a></li><li class="recent-posts__item"><a href="/201026-fe-006-leave-var/">6. 이제 그만 var는 놓아줍시다.</a></li><li class="recent-posts__item"><a href="/201026-fe_005_let-and-const/">5. let vs. const</a></li><li class="recent-posts__item"><a href="/201026-fe_004_scope/">4. scope</a></li><li class="recent-posts__item"><a href="/201026_fe_003_const/">3. const 소개</a></li></ul></div><div class="widgets__item"><h3 class="widgets__item__heading">Archives</h3><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">2020 11월</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">2020 10월</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">2017 1월</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">2016 12월</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">2016 11월</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">2016 10월</a><span class="archive-list-count">2</span></li></ul></div><div class="widgets__item"><h3 class="widgets__item__heading">Categories</h3><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/ecmascript/">ECMAScript</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/fe/">FE</a><span class="category-list-count">8</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/fe/react-js/">React.js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/fe/intro/">intro</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/fe/javascript/">javascript</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/fe/javascript/variable/">variable</a><span class="category-list-count">6</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/etc/">etc</a><span class="category-list-count">1</span></li></ul></div></div></div><p class="copyright"><small>© 2020 Jaenam Jung<br>Powered by <a href="https://hexo.io" rel="external" target="_blank">Hexo</a>, Theme by <a href="https://github.com/hyunseob" rel="external" target="_blank">HyunSeob</a></small></p></footer><script src="/js/sharer.min.js"></script></body></html>
