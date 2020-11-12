@@ -304,11 +304,11 @@
     
     <category term="javascript" scheme="http://roy-jung.github.io/tags/javascript/"/>
     
-    <category term="reactjs" scheme="http://roy-jung.github.io/tags/reactjs/"/>
-    
     <category term="es6" scheme="http://roy-jung.github.io/tags/es6/"/>
     
     <category term="es2015" scheme="http://roy-jung.github.io/tags/es2015/"/>
+    
+    <category term="reactjs" scheme="http://roy-jung.github.io/tags/reactjs/"/>
     
   </entry>
   
@@ -333,11 +333,11 @@
     
     <category term="javascript" scheme="http://roy-jung.github.io/tags/javascript/"/>
     
+    <category term="class" scheme="http://roy-jung.github.io/tags/class/"/>
+    
     <category term="es6" scheme="http://roy-jung.github.io/tags/es6/"/>
     
     <category term="es2015" scheme="http://roy-jung.github.io/tags/es2015/"/>
-    
-    <category term="class" scheme="http://roy-jung.github.io/tags/class/"/>
     
   </entry>
   
@@ -390,11 +390,11 @@
     
     <category term="javascript" scheme="http://roy-jung.github.io/tags/javascript/"/>
     
+    <category term="class" scheme="http://roy-jung.github.io/tags/class/"/>
+    
     <category term="es6" scheme="http://roy-jung.github.io/tags/es6/"/>
     
     <category term="es2015" scheme="http://roy-jung.github.io/tags/es2015/"/>
-    
-    <category term="class" scheme="http://roy-jung.github.io/tags/class/"/>
     
   </entry>
   
