@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>http://roy-jung.github.io/201129_apollo-graphql-infinite-scroll/</loc>
+        <lastmod>2020-11-28T15:15:02.114Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://roy-jung.github.io/201111-concise-redux-saga/</loc>
         <lastmod>2020-11-11T17:26:52.553Z</lastmod>
         <changefreq>weekly</changefreq>
