@@ -8,8 +8,40 @@
     </url>
 
     <url>
+        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
+        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026-fe_005_let-and-const/</loc>
+        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026-fe-006-leave-var/</loc>
+        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201130_swr-graphql-infinite-scroll/</loc>
+        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://roy-jung.github.io/201129_apollo-graphql-infinite-scroll/</loc>
-        <lastmod>2020-11-28T15:15:02.114Z</lastmod>
+        <lastmod>2020-11-28T16:11:59.482Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,22 +58,6 @@
     <url>
         <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
         <lastmod>2020-11-11T01:28:30.774Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/201026-fe-006-leave-var/</loc>
-        <lastmod>2020-11-11T01:25:03.799Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/201026-fe_005_let-and-const/</loc>
-        <lastmod>2020-11-11T01:25:01.092Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -106,14 +122,6 @@
     <url>
         <loc>http://roy-jung.github.io/161127_how-to-make-private-member/</loc>
         <lastmod>2020-10-26T11:22:47.175Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
-        <lastmod>2020-10-26T11:22:25.532Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
