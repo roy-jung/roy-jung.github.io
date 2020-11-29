@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>http://roy-jung.github.io/201130_swr-graphql-infinite-scroll/</loc>
+        <lastmod>2020-11-29T12:42:39.307Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
         <lastmod>2020-11-29T12:37:55.907Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,14 +33,6 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe-006-leave-var/</loc>
-        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/201130_swr-graphql-infinite-scroll/</loc>
         <lastmod>2020-11-29T12:37:55.907Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
