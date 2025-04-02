@@ -2,14 +2,23 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://roy-jung.github.io</loc>
+        <loc>http://roy-jung.github.io/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
+
+    <url>
+        <loc>http://roy-jung.github.io/250323-react-server-components/</loc>
+        <lastmod>2025-04-01T02:03:29.994Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
     <url>
         <loc>http://roy-jung.github.io/211231-review-2021/</loc>
-        <lastmod>2022-01-03T04:31:23.127Z</lastmod>
+        <lastmod>2022-01-03T04:31:23.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,7 +26,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201130_swr-graphql-infinite-scroll/</loc>
-        <lastmod>2020-11-29T13:07:53.905Z</lastmod>
+        <lastmod>2020-11-29T13:07:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,7 +34,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201129_apollo-graphql-infinite-scroll/</loc>
-        <lastmod>2020-11-29T12:50:37.156Z</lastmod>
+        <lastmod>2020-11-29T12:50:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,15 +42,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
-        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/201026-fe_005_let-and-const/</loc>
-        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
+        <lastmod>2020-11-29T12:37:55.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -49,7 +50,15 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe-006-leave-var/</loc>
-        <lastmod>2020-11-29T12:37:55.907Z</lastmod>
+        <lastmod>2020-11-29T12:37:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/201026-fe_005_let-and-const/</loc>
+        <lastmod>2020-11-29T12:37:55.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -57,7 +66,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201111-concise-redux-saga/</loc>
-        <lastmod>2020-11-11T17:26:52.553Z</lastmod>
+        <lastmod>2020-11-11T17:26:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -65,7 +74,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
-        <lastmod>2020-11-11T01:28:30.774Z</lastmod>
+        <lastmod>2020-11-11T01:28:30.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -73,7 +82,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026-fe_004_scope/</loc>
-        <lastmod>2020-11-11T01:24:58.817Z</lastmod>
+        <lastmod>2020-11-11T01:24:58.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -81,7 +90,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026_fe_003_const/</loc>
-        <lastmod>2020-10-28T07:22:28.973Z</lastmod>
+        <lastmod>2020-10-28T07:22:28.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -89,7 +98,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026_fe_002_let-iteration/</loc>
-        <lastmod>2020-10-28T07:22:19.636Z</lastmod>
+        <lastmod>2020-10-28T07:22:19.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -97,7 +106,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026_fe_001_let-set-url-params/</loc>
-        <lastmod>2020-10-28T07:22:11.938Z</lastmod>
+        <lastmod>2020-10-28T07:22:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -105,7 +114,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/201026_fe_000_intro/</loc>
-        <lastmod>2020-10-26T12:59:44.444Z</lastmod>
+        <lastmod>2020-10-26T12:59:44.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -113,7 +122,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/170110_let-vs-var-performance-compare/</loc>
-        <lastmod>2020-10-26T11:23:03.148Z</lastmod>
+        <lastmod>2020-10-26T11:23:03.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -121,7 +130,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/161020_how-to-remove-node-from-macos/</loc>
-        <lastmod>2020-10-26T11:22:53.537Z</lastmod>
+        <lastmod>2020-10-26T11:22:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -129,7 +138,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/161127_how-to-make-private-member/</loc>
-        <lastmod>2020-10-26T11:22:47.175Z</lastmod>
+        <lastmod>2020-10-26T11:22:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -137,7 +146,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/161228_ecmascript-proposals-1-intro/</loc>
-        <lastmod>2020-10-26T11:22:11.382Z</lastmod>
+        <lastmod>2020-10-26T11:22:11.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
