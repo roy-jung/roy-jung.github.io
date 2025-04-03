@@ -10,7 +10,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/250323-react-server-components/</loc>
-        <lastmod>2025-04-02T11:42:58.780Z</lastmod>
+        <lastmod>2025-04-03T00:12:03.818Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -65,7 +65,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/201026_fe_002_let-iteration/</loc>
+        <loc>http://roy-jung.github.io/201026_fe_001_let-set-url-params/</loc>
         <lastmod>2025-04-02T11:37:01.498Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -73,7 +73,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/201026_fe_001_let-set-url-params/</loc>
+        <loc>http://roy-jung.github.io/201026_fe_002_let-iteration/</loc>
         <lastmod>2025-04-02T11:37:01.498Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -137,7 +137,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
+        <loc>http://roy-jung.github.io/161020_how-to-remove-node-from-macos/</loc>
         <lastmod>2025-04-02T11:37:01.495Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -145,7 +145,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161020_how-to-remove-node-from-macos/</loc>
+        <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
         <lastmod>2025-04-02T11:37:01.495Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
