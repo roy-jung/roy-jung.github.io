@@ -8,7 +8,7 @@
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="http://roy-jung.github.io/images/Forensics%20of%20React%20Server%20Components.jpg">
 <meta property="article:published_time" content="2025-04-02T11:00:00.000Z">
-<meta property="article:modified_time" content="2025-04-03T00:17:53.614Z">
+<meta property="article:modified_time" content="2025-04-03T01:33:44.852Z">
 <meta property="article:author" content="Jaenam Jung">
 <meta property="article:tag" content="React.js">
 <meta property="article:tag" content="Next.js">
@@ -87,7 +87,7 @@
 <li>페이지를 인터랙티브하게 만드는 <strong>클라이언트 사이드 버전</strong></li>
 </ol>
 <!-- We’re still shipping React and code for the app to the browser because — in order to hydrate the initial HTML — React needs the same components on the client side that were used on the server. During hydration, [React performs a process called](https://css-tricks.com/how-react-reconciliation-works/) [_reconciliation_](https://css-tricks.com/how-react-reconciliation-works/) in which it compares the server-rendered DOM with the client-rendered DOM and tries to identify differences between the two. If there are differences between the two DOMs, React attempts to fix them by rehydrating the component tree and updating the component hierarchy to match the server-rendered structure. And if there are still inconsistencies that cannot be resolved, React will throw errors to indicate the problem. This problem is commonly known as a hydration error. -->
-<p>초기 HTML을 하이드레이트하기 위해서는 리액트와 앱 코드를 브라우저로 전송해야 합니다. 하이드레이션 과정에서 리액트는 서버에서 렌더링 된 DOM과 클라이언트에서 렌더링 된 DOM을 비교하여 차이점을 찾아내는 <a target="_blank" rel="noopener" href="https://css-tricks.com/how-react-reconciliation-works/"><em>재조정(reconciliation)</em></a> 작업을 수행합니다. 만약 두 DOM 사이에 차이가 있다면, 리액트는 컴포넌트 트리를 다시 하이드레이트하고, 컴포넌트 계층 구조를 서버에서 렌더링 된 구조에 맞추어 업데이트하려 합니다. 그래도 해결되지 않는 불일치가 있다면, 리액트는 문제를 알리기 위해 오류를 발생시킵니다. 일반적으로 이를 _’하이드레이션 오류’_라고 합니다.</p>
+<p>초기 HTML을 하이드레이트하기 위해서는 리액트와 앱 코드를 브라우저로 전송해야 합니다. 하이드레이션 과정에서 리액트는 서버에서 렌더링 된 DOM과 클라이언트에서 렌더링 된 DOM을 비교하여 차이점을 찾아내는 <a target="_blank" rel="noopener" href="https://css-tricks.com/how-react-reconciliation-works/"><em>재조정(reconciliation)</em></a> 작업을 수행합니다. 만약 두 DOM 사이에 차이가 있다면, 리액트는 컴포넌트 트리를 다시 하이드레이트하고, 컴포넌트 계층 구조를 서버에서 렌더링 된 구조에 맞추어 업데이트하려 합니다. 그래도 해결되지 않는 불일치가 있다면, 리액트는 문제를 알리기 위해 오류를 발생시킵니다. 일반적으로 이를 <em>‘하이드레이션 오류’</em>라고 합니다.</p>
 <!-- ### SSR Drawbacks -->
 <h3 id="2-3-SSR의-단점"><a href="#2-3-SSR의-단점" class="headerlink" title="2.3. SSR의 단점"></a>2.3. SSR의 단점</h3><!-- SSR is not a silver bullet solution that addresses CSR limitations. SSR comes with its own drawbacks. Since we moved the initial HTML rendering and data fetching to the server, those servers are now experiencing a much greater load than when we loaded everything on the client. -->
 <p>SSR은 CSR의 한계를 해결하는 만능 해결책은 아닙니다. SSR 역시 단점이 있습니다. 초기 HTML 렌더링과 데이터 페칭을 서버로 옮겼기 때문에, 해당 서버들은 클라이언트에서 모든 것을 로드할 때보다 훨씬 더 큰 부하를 겪게 됩니다.</p>
@@ -380,7 +380,7 @@ This significantly reduces rendering time, as well as the overall amount of data
   s.src = '//gomugom.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
-})();</script><noscript>Enable JavaScript to see comments.</noscript><!-- Meta Tags for Structured Data--><meta itemprop="dateModified" content="2025-04-03T00:17:53.614Z"><meta itemprop="articleBody" content="
+})();</script><noscript>Enable JavaScript to see comments.</noscript><!-- Meta Tags for Structured Data--><meta itemprop="dateModified" content="2025-04-03T01:33:44.852Z"><meta itemprop="articleBody" content="
 원문: The Forensics of React Server Components (RSC)
 
 
