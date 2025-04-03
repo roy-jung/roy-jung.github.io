@@ -8,7 +8,7 @@
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="http://roy-jung.github.io/images/Forensics%20of%20React%20Server%20Components.jpg">
 <meta property="article:published_time" content="2025-04-02T11:00:00.000Z">
-<meta property="article:modified_time" content="2025-04-03T01:44:55.314Z">
+<meta property="article:modified_time" content="2025-04-03T05:06:10.814Z">
 <meta property="article:author" content="Jaenam Jung">
 <meta property="article:tag" content="React.js">
 <meta property="article:tag" content="Next.js">
@@ -109,7 +109,7 @@
 <p>SSG는 서버의 부담을 줄이는 동시에 서버가 페이지를 다시 렌더링 하기 위해 무거운 작업을 수행할 필요가 없으므로 TTFB와 관련된 성능 지표를 개선합니다.</p>
 <!-- ### Incremental Static Regeneration (ISR) -->
 <h3 id="3-2-증분-정적-재생성-ISR"><a href="#3-2-증분-정적-재생성-ISR" class="headerlink" title="3.2. 증분 정적 재생성 (ISR)"></a>3.2. 증분 정적 재생성 (ISR)</h3><!-- One SSG drawback is having to rebuild all of the app’s code when a content change is needed. The content is set in stone — being static and all — and there’s no way to change just one part of it without rebuilding the whole thing. -->
-<p>ISR은 콘텐츠 변경이 필요할 때 앱의 모든 코드를 다시 빌드해야 한다는 단점이 있습니다. 정적이라는 특성상 콘텐츠가 고정되어 있어서 전체를 다시 빌드하지 않고 일부만 변경할 수는 없습니다.</p>
+<p>SSG는 콘텐츠 변경이 필요할 때 앱의 모든 코드를 다시 빌드해야 한다는 단점이 있습니다. 정적이라는 특성상 콘텐츠가 고정되어 있어서 전체를 다시 빌드하지 않고 일부만 변경할 수는 없습니다.</p>
 <!-- The Next.js team created the second hybrid flavor of React that addresses the drawback of complete SSG rebuilds: **incremental static regeneration (ISR)**. The name says a lot about the approach in that ISR only rebuilds what’s needed instead of the entire thing. We generate the “initial version” of the page statically during build time but are also able to rebuild any page containing stale data after a user lands on it (i.e., the server request triggers the data check). -->
 <p>Next.js 팀은 전체를 빌드해야 한다는 SSG의 단점을 해결하기 위해 <strong>증분 정적 재생성(ISR)</strong>이라는 리액트의 두 번째 하이브리드 방식을 만들었습니다. 이름에서 알 수 있듯이, ISR은 전체를 다시 빌드하는 대신 필요한 부분만 빌드합니다. 초기 빌드 시기에는 (SSG와 마찬가지로) 페이지의 “초기 버전”을 정적으로 생성합니다. 이후 사용자가 어떤 페이지에 접근하여 서버 요청이 발생하면 데이터를 확인하여, 오래된 데이터가 포함된 경우에는 해당 페이지를 다시 빌드할 수 있습니다.</p>
 <!-- From that point on, the server will serve new versions of that page statically in increments when needed. That makes ISR a hybrid approach that is neatly positioned between SSG and traditional SSR. -->
@@ -380,7 +380,7 @@ This significantly reduces rendering time, as well as the overall amount of data
   s.src = '//gomugom.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
-})();</script><noscript>Enable JavaScript to see comments.</noscript><!-- Meta Tags for Structured Data--><meta itemprop="dateModified" content="2025-04-03T01:44:55.314Z"><meta itemprop="articleBody" content="
+})();</script><noscript>Enable JavaScript to see comments.</noscript><!-- Meta Tags for Structured Data--><meta itemprop="dateModified" content="2025-04-03T05:06:10.814Z"><meta itemprop="articleBody" content="
 원문: The Forensics of React Server Components (RSC)
 
 
