@@ -10,7 +10,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/250414-react-reconciliation-deep-dive/</loc>
-        <lastmod>2025-04-23T01:54:12.776Z</lastmod>
+        <lastmod>2025-04-23T05:25:52.302Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +18,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/250323-react-server-components/</loc>
-        <lastmod>2025-04-10T04:13:46.300Z</lastmod>
+        <lastmod>2025-04-23T05:25:46.732Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -121,7 +121,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161228_ecmascript-proposals-1-intro/</loc>
+        <loc>http://roy-jung.github.io/170110_let-vs-var-performance-compare/</loc>
         <lastmod>2025-04-02T11:37:01.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -129,7 +129,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/170110_let-vs-var-performance-compare/</loc>
+        <loc>http://roy-jung.github.io/161228_ecmascript-proposals-1-intro/</loc>
         <lastmod>2025-04-02T11:37:01.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
