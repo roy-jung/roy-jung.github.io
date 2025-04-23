@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="80" viewBox="0 0 120 80">
+  <!-- 배경 -->
+  <rect width="120" height="80" fill="none" />
+  
+  <!-- 호랑이 얼굴 -->
+  <circle cx="60" cy="40" r="30" fill="#FFA726" stroke="#E65100" stroke-width="2" />
+  
+  <!-- 호랑이 귀 -->
+  <polygon points="45,15 40,5 50,10" fill="#FFA726" stroke="#E65100" stroke-width="2" />
+  <polygon points="75,15 80,5 70,10" fill="#FFA726" stroke="#E65100" stroke-width="2" />
+  
+  <!-- 얼굴 줄무늬 -->
+  <path d="M45,25 C50,35 45,40 40,45" fill="none" stroke="#E65100" stroke-width="2" />
+  <path d="M75,25 C70,35 75,40 80,45" fill="none" stroke="#E65100" stroke-width="2" />
+  <path d="M60,25 L60,35" stroke="#E65100" stroke-width="2" />
+  
+  <!-- 눈 -->
+  <circle cx="50" cy="30" r="4" fill="white" />
+  <circle cx="70" cy="30" r="4" fill="white" />
+  <circle cx="50" cy="30" r="2" fill="#212121" />
+  <circle cx="70" cy="30" r="2" fill="#212121" />
+  
+  <!-- 코 -->
+  <path d="M57,40 h6" stroke="#212121" stroke-width="2" stroke-linecap="round" />
+  <path d="M60,40 L60,43" stroke="#212121" stroke-width="2" />
+  
+  <!-- 입 -->
+  <path d="M54,48 C57,52 63,52 66,48" fill="none" stroke="#212121" stroke-width="1.5" />
+  
+  <!-- 코드 부분 -->
+  <rect x="10" y="60" width="100" height="15" fill="#546E7A" rx="3" />
+  <text x="15" y="71" font-family="monospace" font-size="10" fill="#FFFFFF">share() { return joy; }</text>
+</svg>
