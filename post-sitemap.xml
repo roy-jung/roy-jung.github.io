@@ -10,7 +10,7 @@
 
     <url>
         <loc>http://roy-jung.github.io/iterator-helper-overview/</loc>
-        <lastmod>2025-05-13T05:58:06.250Z</lastmod>
+        <lastmod>2025-05-13T06:11:22.998Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -121,6 +121,14 @@
     </url>
 
     <url>
+        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
+        <lastmod>2025-04-02T11:37:01.496Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://roy-jung.github.io/161228_ecmascript-proposals-1-intro/</loc>
         <lastmod>2025-04-02T11:37:01.496Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -130,14 +138,6 @@
 
     <url>
         <loc>http://roy-jung.github.io/170110_let-vs-var-performance-compare/</loc>
-        <lastmod>2025-04-02T11:37:01.496Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
         <lastmod>2025-04-02T11:37:01.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
