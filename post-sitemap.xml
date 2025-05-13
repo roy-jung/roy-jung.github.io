@@ -97,14 +97,6 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/201111-concise-redux-saga/</loc>
-        <lastmod>2025-04-02T11:37:01.499Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://roy-jung.github.io/201129_apollo-graphql-infinite-scroll/</loc>
         <lastmod>2025-04-02T11:37:01.499Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -113,8 +105,8 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
-        <lastmod>2025-04-02T11:37:01.496Z</lastmod>
+        <loc>http://roy-jung.github.io/201111-concise-redux-saga/</loc>
+        <lastmod>2025-04-02T11:37:01.499Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -138,6 +130,14 @@
 
     <url>
         <loc>http://roy-jung.github.io/170110_let-vs-var-performance-compare/</loc>
+        <lastmod>2025-04-02T11:37:01.496Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
         <lastmod>2025-04-02T11:37:01.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
