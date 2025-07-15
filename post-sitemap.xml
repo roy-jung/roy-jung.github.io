@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>http://roy-jung.github.io/250701-history-of-js/</loc>
+        <lastmod>2025-07-12T08:03:29.247Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://roy-jung.github.io/iterator-helper-overview/</loc>
         <lastmod>2025-05-15T03:48:33.008Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -113,7 +121,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161127_how-to-make-private-member/</loc>
+        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
         <lastmod>2025-04-02T11:37:01.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -121,7 +129,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161128_es6-for-react/</loc>
+        <loc>http://roy-jung.github.io/161127_how-to-make-private-member/</loc>
         <lastmod>2025-04-02T11:37:01.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -145,7 +153,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161020_how-to-remove-node-from-macos/</loc>
+        <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
         <lastmod>2025-04-02T11:37:01.495Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -153,7 +161,7 @@
     </url>
 
     <url>
-        <loc>http://roy-jung.github.io/161007_is-class-only-a-syntactic-sugar/</loc>
+        <loc>http://roy-jung.github.io/161020_how-to-remove-node-from-macos/</loc>
         <lastmod>2025-04-02T11:37:01.495Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
